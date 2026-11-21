@@ -13743,15 +13743,15 @@
    },
    "params_observed": {
     "moduleName": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "query": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -14196,23 +14196,23 @@
    },
    "params_observed": {
     "acknowledgeUnknown": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "action": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "expectedRevision": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "taskId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -14237,7 +14237,7 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -14262,7 +14262,7 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -14287,11 +14287,11 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "taskId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -14316,7 +14316,7 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -17428,11 +17428,11 @@
    },
    "params_observed": {
     "fileId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -17610,15 +17610,15 @@
    },
    "params_observed": {
     "fileId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "isSourcesShared": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -22079,11 +22079,11 @@
    },
    "params_observed": {
     "appIds": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -28062,19 +28062,19 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "prUrl": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "text": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -35951,7 +35951,7 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -43965,11 +43965,11 @@
    },
    "params_observed": {
     "experimentId": {
-     "sites": 4,
+     "sites": 3,
      "type": "unknown"
     },
     "reason": {
-     "sites": 4,
+     "sites": 3,
      "type": "string"
     }
    },
@@ -44551,19 +44551,19 @@
    },
    "params_observed": {
     "pilot": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "text": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "type": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -44670,19 +44670,19 @@
    },
    "params_observed": {
     "contact": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "text": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "type": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -44707,19 +44707,19 @@
    },
    "params_observed": {
     "productArea": {
-     "sites": 5,
+     "sites": 3,
      "type": "unknown"
     },
     "productFeedback": {
-     "sites": 5,
+     "sites": 3,
      "type": "unknown"
     },
     "reason": {
-     "sites": 5,
+     "sites": 3,
      "type": "string"
     },
     "source": {
-     "sites": 5,
+     "sites": 3,
      "type": "string"
     }
    },
@@ -45669,11 +45669,11 @@
    },
    "params_observed": {
     "fileId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -48429,15 +48429,15 @@
    },
    "params_observed": {
     "excludeFromSlackAi": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "fileId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -53372,15 +53372,15 @@
    },
    "params_observed": {
     "channel": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     },
     "ts": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -53469,11 +53469,11 @@
    },
    "params_observed": {
     "appIds": {
-     "sites": 6,
+     "sites": 4,
      "type": "unknown"
     },
     "reason": {
-     "sites": 6,
+     "sites": 4,
      "type": "string"
     }
    },
@@ -54202,15 +54202,15 @@
    },
    "params_observed": {
     "listId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "recordId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -54422,11 +54422,11 @@
    },
    "params_observed": {
     "file": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -55779,15 +55779,15 @@
    },
    "params_observed": {
     "eventLinkId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "icalUid": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -66864,15 +66864,15 @@
    },
    "params_observed": {
     "limit": {
-     "sites": 2,
+     "sites": 1,
      "type": "number"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "salesforceOrgId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -68197,23 +68197,23 @@
    },
    "params_observed": {
     "label": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     },
     "salesforceOrgId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "secretKey": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "siteKey": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -68238,11 +68238,11 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     },
     "salesforceOrgId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -68709,11 +68709,11 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "salesforceOrgId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -69470,19 +69470,19 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "emailAddress": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     },
     "salesforceOrgId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -69548,11 +69548,11 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -69577,15 +69577,15 @@
    },
    "params_observed": {
     "emailAddress": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     },
     "salesforceOrgId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -73681,19 +73681,19 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "recaptchaRequired": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "salesforceOrgId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -74201,7 +74201,7 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75262,15 +75262,15 @@
    },
    "params_observed": {
     "fileId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75295,15 +75295,15 @@
    },
    "params_observed": {
     "projectContextId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75328,15 +75328,15 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75361,15 +75361,15 @@
    },
    "params_observed": {
     "projectContextId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75394,11 +75394,11 @@
    },
    "params_observed": {
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75428,19 +75428,19 @@
    },
    "params_observed": {
     "description": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "name": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "systemPrompt": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -75465,11 +75465,11 @@
    },
    "params_observed": {
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75494,15 +75494,15 @@
    },
    "params_observed": {
     "fileId": {
-     "sites": 4,
+     "sites": 2,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 4,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 4,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -75527,11 +75527,11 @@
    },
    "params_observed": {
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75561,15 +75561,15 @@
    },
    "params_observed": {
     "fileId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75655,11 +75655,11 @@
    },
    "params_observed": {
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -75684,19 +75684,19 @@
    },
    "params_observed": {
     "content": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "skipSimpleArraySerializationInGetFormData": {
-     "sites": 2,
+     "sites": 1,
      "type": "boolean"
     }
    },
@@ -75721,11 +75721,11 @@
    },
    "params_observed": {
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -75750,15 +75750,15 @@
    },
    "params_observed": {
     "isEnabled": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -75879,11 +75879,11 @@
    },
    "params_observed": {
     "projectId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -76270,19 +76270,19 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "desktopContext": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "limit": {
-     "sites": 2,
+     "sites": 1,
      "type": "number"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -80444,11 +80444,11 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "templateType": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -82705,19 +82705,19 @@
    },
    "params_observed": {
     "insert": {
-     "sites": 4,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 4,
+     "sites": 2,
      "type": "unknown"
     },
     "remove": {
-     "sites": 4,
+     "sites": 2,
      "type": "unknown"
     },
     "fileId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -82925,19 +82925,19 @@
    },
    "params_observed": {
     "channelSuggestionId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "createdChannelId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     },
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "status": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     }
    },
@@ -83275,15 +83275,15 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     },
     "userId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -83342,15 +83342,15 @@
    },
    "params_observed": {
     "channelId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     },
     "userId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -83416,7 +83416,7 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -83441,11 +83441,11 @@
    },
    "params_observed": {
     "emailTokenId": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "string"
     }
    },
@@ -84773,11 +84773,11 @@
    },
    "params_observed": {
     "email": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     },
     "reason": {
-     "sites": 3,
+     "sites": 2,
      "type": "unknown"
     }
    },
@@ -88216,11 +88216,11 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 2,
+     "sites": 1,
      "type": "string"
     },
     "templateId": {
-     "sites": 2,
+     "sites": 1,
      "type": "unknown"
     }
    },
@@ -89877,7 +89877,7 @@
   }
  },
  "datamine_latest_build": {
-  "build": "f60500bf8a94",
+  "build": "8f19be21ed7e",
   "captured": "2026-11-21",
   "note": "3kh0/slack-datamine mines only the chunks Slack serves to one logged-in client; 12 gantry-v2 chunks fail to download, so the latest build lists far fewer methods than older ones. \"removed\" means absent from that build, not necessarily gone server-side."
  }
