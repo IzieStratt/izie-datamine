@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "counts": {
   "total": 2353,
   "documented": 345,
   "undocumented": 2008,
-  "not_in_client": 415,
+  "not_in_client": 416,
   "params_observed": 662,
   "live_verified_undocumented": 113,
   "params_known": 916,
@@ -62639,19 +62639,19 @@
      "sites": 4,
      "type": "unknown"
     },
-    "reason": {
-     "sites": 4,
-     "type": "unknown"
-    },
     "appId": {
      "sites": 3,
      "type": "unknown"
     },
-    "fileId": {
+    "reason": {
      "sites": 3,
-     "type": "unknown"
+     "type": "string"
     },
     "clientMsgId": {
+     "sites": 2,
+     "type": "unknown"
+    },
+    "fileId": {
      "sites": 2,
      "type": "unknown"
     },
@@ -62672,10 +62672,6 @@
      "type": "unknown"
     },
     "messagesToDelete": {
-     "sites": 1,
-     "type": "unknown"
-    },
-    "sensitivityLabelId": {
      "sites": 1,
      "type": "unknown"
     }
@@ -66120,7 +66116,9 @@
    "response_source": null,
    "datamine": {
     "first_build": "125207",
-    "first_seen": "2026-06-02"
+    "first_seen": "2026-06-02",
+    "last_build": "f60500bf8a94",
+    "last_seen": "2026-11-21"
    },
    "params_observed": {
     "openedListId": {
@@ -66148,7 +66146,9 @@
      "type": "unknown"
     }
    },
-   "params_observed_source": "Argument names seen at call sites in Slack's web client build 35b42de8b870 (2026-11-19). Later builds no longer show call sites for this method, so these may be out of date. Mined by IzieStratt/slack-datamine-plus (own miner). They are real names as written in the client's JavaScript, but the set is partial (spread and computed arguments are invisible), says nothing about which are required, and camelCase client names may be snake_case on the wire. \"sites\" is how many call sites pass the key."
+   "params_observed_source": "Argument names seen at call sites in Slack's web client build 35b42de8b870 (2026-11-19). Later builds no longer show call sites for this method, so these may be out of date. Mined by IzieStratt/slack-datamine-plus (own miner). They are real names as written in the client's JavaScript, but the set is partial (spread and computed arguments are invisible), says nothing about which are required, and camelCase client names may be snake_case on the wire. \"sites\" is how many call sites pass the key.",
+   "not_in_client": true,
+   "not_in_client_note": "Not found in Slack's web client as of the latest mined build (last seen in build f60500bf8a94, 2026-11-21). The client no longer references it; that is not proof the API stopped answering."
   },
   {
    "name": "search.modules.triggers",
@@ -87577,7 +87577,7 @@
    },
    "params_observed": {
     "reason": {
-     "sites": 13,
+     "sites": 15,
      "type": "unknown"
     },
     "channelId": {
@@ -87628,7 +87628,7 @@
      "sites": 2,
      "type": "unknown"
     },
-    "labelId": {
+    "sensitivityLabelId": {
      "sites": 2,
      "type": "unknown"
     },
@@ -89877,8 +89877,8 @@
   }
  },
  "datamine_latest_build": {
-  "build": "8f19be21ed7e",
-  "captured": "2026-11-21",
+  "build": "36d315d11944",
+  "captured": "2026-11-22",
   "note": "3kh0/slack-datamine mines only the chunks Slack serves to one logged-in client; 12 gantry-v2 chunks fail to download, so the latest build lists far fewer methods than older ones. \"removed\" means absent from that build, not necessarily gone server-side."
  }
 }

@@ -1749,7 +1749,7 @@ search.modules.external	undocumented	existence-only	-	observed	-	-	(inferred fro
 search.modules.files	undocumented	existence-only	params	-	-	-	Modular file search
 search.modules.messages	undocumented	partial	params	-	not-in-client	-	Modular message search
 search.modules.people	undocumented	existence-only	params	-	-	-	Modular people search
-search.modules.topResults	undocumented	existence-only	-	observed	-	-	(inferred from name only; see methods/datamine-2026-09.md)
+search.modules.topResults	undocumented	existence-only	-	observed	not-in-client	-	(inferred from name only; see methods/datamine-2026-09.md)
 search.modules.triggers	undocumented	not-live-tested (source-only, typed but unverified)	params	-	-	-	params per slack-undoc-client generated types: module?: string; query?: string; page?: number; client_req_id?: string; browse_session_id?: string; extracts?: number; highlight?: number; extra_message_data?: number; no_user_profile?: number; count?: number; file_title_only?: boolean; query_rewrite_disabled?: boolean; include_files_shares?: number; browse?: string; search_context?: string; max_filter_suggestions?: number; sort?: string; sort_dir?: string; search_only_my_apps?: boolean; strict_exposure_rules?: number; trigger_types?: string;
 search.modules.workObjects	undocumented	existence-only	-	observed	-	-	(inferred from name only; see methods/datamine-2026-09.md)
 search.precache	undocumented	existence-only	params	-	not-in-client	-	Pre-warm search caches

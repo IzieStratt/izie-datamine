@@ -479,7 +479,7 @@
   ],
   "snippets": [
    "t:O,onClick:P},secondaryCta:{text:S,onClick:k,iconProps:{name:\"arrow-down-right\"}}}:void 0,[k,S,P,T,O]),R=N.rt(\"Adding unlimited apps, including AI apps, is a paid feature available with your free tri",
-   "()=>({canUserPurchase:n}),[n]),T=(0,o.useMemo)(()=>({iconName:\"arrow-down-right\"}),[]),x=_?F.t(\"Explain my upgrade options\"):\"Explain my upgrade options\",renderHeaderText=()=>(0,r.jsxs)(\"div\",{classNa"
+   "t:K,onClick:N},secondaryCta:{text:F,onClick:B,iconProps:{name:\"arrow-down-right\"}}}:void 0,[B,F,N,U,K]),W=I?A?{title:M,trialEndSize:\"small\"}:{title:H,body:U?D:E,trialEndSize:\"large\"}:{title:j};return "
   ]
  },
  "arrow-expand": {
@@ -583,7 +583,7 @@
   "labels": [],
   "snippets": [
    ",{className:\"icon__zhFAF\",children:(0,r.jsx)(c.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})};WorkspaceMenuBannerCard.displayName=\"WorkspaceMenuBannerCard\";let NewYearPromo27WorkspaceMenuBann",
-   ",{className:\"icon__v2t3u\",children:(0,r.jsx)(d.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})})};DownmarketAdminTrialBanner.displayName=\"DownmarketAdminTrialBanner\"})}]);\n//# sourceMappingURL="
+   "\"div\",{className:f.A.icon,children:(0,s.jsx)(d.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})})};AdminPeekFooterUpsellBanner.displayName=\"AdminPeekFooterUpsellBanner\";var x=a(\"vT5P\"),C=a(\"L4/s"
   ]
  },
  "arrow-up-left": {
@@ -649,7 +649,7 @@
   "count": 1,
   "labels": [],
   "snippets": [
-   "ssName:\"planIcon__IoTNZ\",\"aria-hidden\":!0,children:(0,m.jsx)(N.Ah,{name:\"blocks\",size:\"inherit\"})}),d]}),(0,m.jsx)(\"div\",{className:\"shape__lM4sF\",\"aria-hidden\":!0,children:(0,m.jsx)(uI.Provider,{valu"
+   "ssName:\"planIcon__IoTNZ\",\"aria-hidden\":!0,children:(0,m.jsx)(N.Ah,{name:\"blocks\",size:\"inherit\"})}),d]}),(0,m.jsx)(\"div\",{className:\"shape__lM4sF\",\"aria-hidden\":!0,children:(0,m.jsx)(uL.Provider,{valu"
   ]
  },
  "blocks-filled": {
@@ -1521,8 +1521,8 @@
    "Show Advanced Filters"
   ],
   "snippets": [
-   "ck)(()=>{t(a)},[t,a]),b=(0,r.useCallback)(()=>(0,i.jsx)(T.Ah,{name:\"caret-right\",size:\"20\"}),[]),S=(0,r.useMemo)(()=>{let e=\"\";return a===e4.b.People?e=\"canvas_share_dialog_people\":a===e4.b.Channels?e",
-   "# pending requests to join}}\",{count:r}):\"\"}),(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\"})]})}):null};ChannelJoinRequestsEntryPoint.displayName=\"ChannelJoinRequestsEntryPoint\";var rd=n(\"gLPf\"),rc=n("
+   "# pending requests to join}}\",{count:r}):\"\"}),(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\"})]})}):null};ChannelJoinRequestsEntryPoint.displayName=\"ChannelJoinRequestsEntryPoint\";var rd=n(\"gLPf\"),rc=n(",
+   "div\",{className:_K.A.listItemActions,children:(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\",\"aria-hidden\":!0})})]})}return(0,t.jsx)(IntegrationListItem,{id:e.id,server:e.item.server,status:e.item.statu"
   ]
  },
  "caret-right-double-full": {
@@ -1621,7 +1621,7 @@
   ],
   "snippets": [
    "xt:l,ariaLabel:as.t(\"People with access\")},[e4.b.Channels]:{icon:{name:\"channel\"},title:as.t(\"Channels\"),getSubText:d,ariaLabel:as.t(\"Channels with access\")},[e4.b.Settings]:{icon:{name:\"settings\"},ti",
-   "els, like those used for announcements, distraction-free.\"),icon:{name:\"channel\"},cta:{title:l.t(\"Advanced channel permissions\"),subtitle:l.t(\"Say who can manage and post in channels\")},helpArticle:{i"
+   "ren:(0,r.jsxs)(F.v,{style:\"informative\",children:[(0,r.jsx)(m.Ah,{name:\"channel\"}),(0,r.jsx)(\"span\",{className:\"missingText__S2Vun\",children:(0,r.jsx)(P.a,{showTooltip:!1,width:\"medium\",showHash:!0,ap"
   ]
  },
  "channel-add": {
@@ -1711,7 +1711,7 @@
    "Keep",
    "Discard",
    "Copied to clipboard",
-   "Approved"
+   "Copied"
   ],
   "snippets": [
    "(\"span\",{className:\"very_small_top_margin\",children:(0,o.jsx)(c.Ah,{name:\"check\",size:\"20\"})}),(0,o.jsx)(\"span\",{children:G.t(\"Calendar events will be saved as activities associated with your contacts",
@@ -1836,7 +1836,7 @@
   ],
   "snippets": [
    "t_modal__member_profile_section_item_icon\",children:(0,t.jsx)(u.Ah,{name:\"clock\",size:\"20\"})}),(0,t.jsx)(\"span\",{children:u0.t(\"{time} local time\",{time:g})})]}),C&&(0,t.jsxs)(\"div\",{className:\"p-abou",
-   "igned\":return{label:i.t(\"Assigned\"),color:\"horchata\",tag:\"horchata\",icon:\"clock\"};case\"Canceled\":return{label:i.t(\"Canceled\"),color:l,tag:\"sunflower\",icon:\"close\"};case\"Errored\":return{label:i.t(\"Erro"
+   "arFocusSync:i=!1}={}){return{id:\"availability\",label:\"Availability\",icon:\"clock\",subSections:[{id:\"working-hours\",label:\"Working hours\",description:()=>(0,n.jsx)(WorkingHoursDescription,{}),items:[{id"
   ]
  },
  "clock-filled": {
@@ -1854,8 +1854,8 @@
    "Hide thread"
   ],
   "snippets": [
-   "ialog_share_locations__revoke_button_icon\",children:(0,i.jsx)(T.Ah,{name:\"close\",inline:!0})})]})})})}ShareDialogRevokeUnknownButton.displayName=\"ShareDialogRevokeUnknownButton\";let eJ=new y.Ay(\"share",
-   "Close\"),className:\"c-dialog__close\",onClick:this.onCloseButtonClick,icon:\"close\"}),(0,t.jsx)(\"div\",{className:\"align_center\",children:(0,t.jsx)(d.A,{className:\"p-app_permission_dialog__app_icon\",src:e"
+   "Close\"),className:\"c-dialog__close\",onClick:this.onCloseButtonClick,icon:\"close\"}),(0,t.jsx)(\"div\",{className:\"align_center\",children:(0,t.jsx)(d.A,{className:\"p-app_permission_dialog__app_icon\",src:e",
+   "ialog_share_locations__revoke_button_icon\",children:(0,i.jsx)(T.Ah,{name:\"close\",inline:!0})})]})})})}ShareDialogRevokeUnknownButton.displayName=\"ShareDialogRevokeUnknownButton\";let eJ=new y.Ay(\"share"
   ]
  },
  "close-circle": {
@@ -1867,7 +1867,7 @@
   ],
   "snippets": [
    ")(n.Fragment,{children:[\"Denied for \",e]})},cancelled:{icon:{name:\"close-circle\",className:\"neutralIcon__cO6EF\"},timestampKey:\"resolved\",getLabel:e=>e?M.t(\"Canceled\"):\"Canceled\",getTeamLabel:(e,t)=>t?",
-   "),\"aria-label\":W,title:W,onClick:c,children:(0,A.jsx)(el.Ah,{name:\"close-circle\",size:e?\"20\":\"16\",\"aria-hidden\":!0})})]}),w&&!e&&(0,A.jsx)(es.A,{className:(0,z.A)(ak,!i&&ax),\"aria-label\":U,title:U,onC"
+   "),\"aria-label\":W,title:W,onClick:c,children:(0,A.jsx)(el.Ah,{name:\"close-circle\",size:e?\"20\":\"16\",\"aria-hidden\":!0})})]}),w&&!e&&(0,A.jsx)(es.A,{className:(0,z.A)(ad,!i&&au),\"aria-label\":U,title:U,onC"
   ]
  },
  "close-circle-filled": {
@@ -2237,8 +2237,8 @@
    "Edit section"
   ],
   "snippets": [
-   ":\"comment\",size:\"20\"})}]:[],{accessLabel:j.Edit,icon:(0,i.jsx)(T.Ah,{name:\"edit\",size:\"20\"})}].find(a=>a.accessLabel===e.label)||{accessLabel:\"\",subtext:\"\",icon:\"\"},n=e.isDisabled?{tip:P,zIndex:\"menu_",
-   ":\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return{name:\"edit\",size:\"18\"}}},[]),ee=(0,s.useCallback)(e=>()=>w(e),[]),ea=(0,s.useCallback)(e=>()=>f(e),[]),en=(0,s.useCallback)(e=>()=>"
+   ":\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return{name:\"edit\",size:\"18\"}}},[]),ee=(0,s.useCallback)(e=>()=>w(e),[]),ea=(0,s.useCallback)(e=>()=>f(e),[]),en=(0,s.useCallback)(e=>()=>",
+   "l.displayName=\"ImportMemoriesModal\";let gF=new d.Ay(\"assistant\"),gB={name:\"edit\"},gq={name:\"trash\"},MemoryActionsToolbar=({onEdit:e,onRemove:a,children:n})=>{let s=gF.t(\"Edit\"),l=gF.t(\"Remove\");return"
   ]
  },
  "edit-disabled": {
@@ -3376,13 +3376,13 @@
  "life-ring": {
   "count": 3,
   "labels": [
+   "Explore help topics",
    "Support has a new home",
-   "Track cases and access support resources on the Salesforce Help site.",
-   "Explore help topics"
+   "Track cases and access support resources on the Salesforce Help site."
   ],
   "snippets": [
    "dren:[l?(0,n.jsxs)(\"div\",{className:K,children:[(0,n.jsx)(E.Ah,{name:\"life-ring\",size:\"20\",inline:!0,\"aria-hidden\":\"true\"}),(0,n.jsx)(T.A,{href:l,target:\"_blank\",\"data-qa\":\"about_page_support_link\",ch",
-   "(0,a.jsx)(c.Ay,{isOpen:!0,orientation:p.YC.Top,arrowPosition:10,icon:\"life-ring\",title:t,bodyText:i,closeCoachmark:r,width:400}),[i,r,t]);return(0,a.jsx)(p.Ay,{coachmarkElement:l,orientation:\"top\",chi"
+   "_search__content__card__subtitle_icon\",children:(0,a.jsx)(C.Ah,{name:\"life-ring\",inline:!0})}),ez.t(\"Explore help topics\")]}),l]})}Recommended.displayName=\"Recommended\";var e$=l(\"3zPy\"),eV=l.n(e$),eJ="
   ]
  },
  "life-ring-filled": {
@@ -3478,8 +3478,8 @@
    "This app"
   ],
   "snippets": [
-   "me:\"c-inline_channel_icon--space\",children:(0,i.jsx)(T.Ah,{inline:!0,name:\"lock\",size:\"16\"})}),(0,i.jsx)(\"span\",{className:\"c-file_entity__text\",children:eJ.t(\"{count} {count, plural, =1 {other channe",
-   "eCallback)(e=>{let a=[{accessLabel:j.Restricted,icon:(0,i.jsx)(T.Ah,{name:\"lock\",size:\"20\"})},{accessLabel:j.Viewer,icon:(0,i.jsx)(T.Ah,{name:\"eye-open\",size:\"20\"})},...j.Commenter?[{accessLabel:j.Com"
+   "n\",{className:\"privateWorkspaceIcon__hcA4n\",children:(0,t.jsx)(u.Ah,{name:\"lock\",size:\"inherit\"})}),(0,t.jsx)(\"span\",{className:\"margin_right_50\",children:a?cL.t(\"Private workspace\"):\"Private workspac",
+   "id:onValidNameEntered,onInvalid:onInvalidNameEntered,focusOnMount:!0,icon:\"lock\",shouldSanitizeChannelName:!0,nameNeedsChecking:M&&!!S,allowMpdmNameCollisions:M,experimentMpdmBringCustomNameToPrivateM"
   ]
  },
  "lock-filled": {
@@ -3817,8 +3817,8 @@
    "Ctrl Alt Click"
   ],
   "snippets": [
-   "ndow\",size:\"18\"},U={name:\"share-message\",size:\"18\"},q={name:\"move-to-split-view\",size:\"18\"},PageBlockCard=({fileId:e,appId:t,fallbackText:a,hasAiGeneratedContent:l})=>{let y=(0,s.wA)(),{channelId:Q,ts",
-   "text:\"Close\",emoji:!0}})},[i,e]),u=(0,a.useMemo)(()=>({name:\"move-to-split-view\"}),[]),m=(0,a.useMemo)(()=>({name:\"share\"}),[]),p=(0,a.useMemo)(()=>({name:\"lock\"}),[]);return(0,t.jsxs)(k.A,{children:["
+   "pan\",{className:\"icon__RJBTp\",children:(0,s.jsx)(k.Ah,{name:\"move-to-split-view\",inline:!0,\"aria-hidden\":\"true\"})})]})})};SuggestedPromptsButton.displayName=\"SuggestedPromptsButton\";var tB=n(\"zjEm\");l",
+   "ndow\",size:\"18\"},U={name:\"share-message\",size:\"18\"},q={name:\"move-to-split-view\",size:\"18\"},PageBlockCard=({fileId:e,appId:t,fallbackText:a,hasAiGeneratedContent:l})=>{let y=(0,s.wA)(),{channelId:Q,ts"
   ]
  },
  "multiparty-dm-10-filled": {
@@ -4647,7 +4647,7 @@
    "Upgrade Plan"
   ],
   "snippets": [
-   "\");let C=\"cta__YiZ70\",P=new l.Ay(\"pnp_salesforce_embed_growth\"),y={name:\"rocket\"},A={},RequestToPurchaseCtaBase=({type:e=\"button\",requestButtonClassName:t,requestedButtonClassName:a,buttonSize:r=\"medi",
+   "abel:an.t(\"See Upgrade Options\"),cancelButtonLabel:an.t(\"Not Now\"),icon:\"rocket\",onCancel:e,onContinue:eE,onContinueAfterTrialStart:ef.noop,reason:\"channel_invite_modal_speedbump\",context:n1.M.channel",
    "an\",{className:\"upgradeRocketIcon__rrknv\",children:(0,a.jsx)(c.Ah,{name:\"rocket\"})}),ee.t(\"Upgrade Now\")]});case t:return(0,a.jsxs)(\"div\",{className:\"trialEligibleCellContainer__No8Xm\",children:[(0,a."
   ]
  },
@@ -4820,8 +4820,8 @@
    "Security"
   ],
   "snippets": [
-   "-sparkle\",title:Y,text:V},{iconName:\"tools\",title:q,text:J},{iconName:\"security\",title:Q,text:Z},{iconName:\"buildings\",title:X,text:$}]:[t,{iconName:\"history\",title:L,text:w},{iconName:\"headphones\",ti",
-   "ldren:(0,s.jsxs)(\"span\",{className:sn,children:[(0,s.jsx)(eY.Ah,{name:\"security\",size:\"20\",\"aria-hidden\":!0}),b,(0,s.jsxs)(\"span\",{className:\"offscreen\",children:[\" \",y]})]})})]}):null]}),(0,s.jsx)(\"d"
+   "ldren:(0,s.jsxs)(\"span\",{className:sn,children:[(0,s.jsx)(eY.Ah,{name:\"security\",size:\"20\",\"aria-hidden\":!0}),b,(0,s.jsxs)(\"span\",{className:\"offscreen\",children:[\" \",y]})]})})]}):null]}),(0,s.jsx)(\"d",
+   "-sparkle\",title:Y,text:V},{iconName:\"tools\",title:q,text:J},{iconName:\"security\",title:Q,text:Z},{iconName:\"buildings\",title:X,text:$}]:[t,{iconName:\"history\",title:L,text:w},{iconName:\"headphones\",ti"
   ]
  },
  "security-filled": {
@@ -4882,8 +4882,8 @@
    "View Message History"
   ],
   "snippets": [
-   "d,ariaLabel:as.t(\"Channels with access\")},[e4.b.Settings]:{icon:{name:\"settings\"},title:as.t(\"Advanced Settings\"),getSubText:h,ariaLabel:as.t(\"Advanced Settings\")}}),[l,d,h]),m=`${a}_meta`,p=(0,r.useC",
-   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"settings\",size:\"20\"})})},{type:\"separator\"},{type:\"header\",label:(0,t.jsxs)(\"div\",{className:\"display_flex flex_direction_column\""
+   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"settings\",size:\"20\"})})},{type:\"separator\"},{type:\"header\",label:(0,t.jsxs)(\"div\",{className:\"display_flex flex_direction_column\"",
+   "m\"),_Y=n(\"N2Mm\");let _X=new d.Ay(\"channel_details_apps_tab\"),_0={name:\"settings\"},_1={name:\"plus\"};function IntegrationListItem({id:e,server:a,status:n,statusLabel:l,isCardBottom:i,onSelect:r,onConnec"
   ]
  },
  "settings-filled": {
@@ -5135,8 +5135,8 @@
    "Share thread\\u2026"
   ],
   "snippets": [
-   "label:S.copyChart,onClick:v}),(0,i.jsx)(HeaderActionButton,{icon:\"share-message\",label:S.shareChart,onClick:x})]}):null,C?(0,i.jsx)(HeaderActionButton,{icon:\"new-window\",label:S.openInNewWindow,onClic",
-   "opy\"}),ep=(0,i.jsx)(u.Ah,{name:\"image\"}),eg=(0,i.jsx)(u.Ah,{name:\"share-message\"}),em=(0,i.jsx)(u.Ah,{name:\"arrow-expand-full\"}),DataVisualizationBlock=({blockId:e,title:t,size:a,chart:r,previewImages"
+   "q.t(\"Share\");r.push({onClick:$,\"aria-label\":t,svgIconProps:{name:\"share-message\",size:\"16\"},tooltipLabel:t,tooltipPosition:p.yX.Top,autoClogProps:{onClick:{enableClogAction:!0},elementName:\"share_reco",
+   "re item\");if(r.push({onClick:$,\"aria-label\":a,svgIconProps:{name:\"share-message\",size:\"16\"},tooltipLabel:a,tooltipPosition:p.yX.Top,autoClogProps:{onClick:{enableClogAction:!0},elementName:\"share_reco"
   ]
  },
  "share-message-filled": {
@@ -5230,8 +5230,8 @@
    "Darker sidebars"
   ],
   "snippets": [
-   "agentic_show_sidebar_button\",children:(0,n.jsx)(d.Ah,{name:\"sidebar-left-filled\",size:\"20\"})})}):null}AgenticShowSidebarButton.displayName=\"AgenticShowSidebarButton\"}}]);\n//# sourceMappingURL=https://",
-   "ay_flex align_items_center\",children:[(0,n.jsx)(S.Ah,{name:\"sidebar-left-filled\"}),nN.t(\"Darker sidebars\")]}),subtext:c,isDisabled:o,type:\"inline\",cursor:o?null:\"pointer\",className:az,children:(0,n.js"
+   "ay_flex align_items_center\",children:[(0,n.jsx)(S.Ah,{name:\"sidebar-left-filled\"}),nN.t(\"Darker sidebars\")]}),subtext:c,isDisabled:o,type:\"inline\",cursor:o?null:\"pointer\",className:az,children:(0,n.js",
+   "agentic_show_sidebar_button\",children:(0,n.jsx)(d.Ah,{name:\"sidebar-left-filled\",size:\"20\"})})}):null}AgenticShowSidebarButton.displayName=\"AgenticShowSidebarButton\"}}]);\n//# sourceMappingURL=https://"
   ]
  },
  "sign-out": {
