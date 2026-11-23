@@ -21,6 +21,7 @@
 - [Chesentir](https://vs.izie.top/Chesentir/): a fictional cheese platform. Satire; simulated agent and metrics.
 - [ChopChop](https://vs.izie.top/ChopChop/): ChopChop YSWS parody landing page. Nothing is submitted anywhere.
 - [This Is generator](https://vs.izie.top/this-is/): Spotify "This Is" style card maker. Runs fully in the browser; no uploads.
+- [Slander maker](https://vs.izie.top/slander/): TikTok-style slander memes - caption cards over gif/video clips, cut to the beat of a music track. Runs fully in the browser; no uploads.
 
 ## Site
 
