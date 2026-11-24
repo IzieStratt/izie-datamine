@@ -659,6 +659,7 @@
  "ai.alpha.sidekicks": [
   "ai.alpha.sidekicks.create",
   "ai.alpha.sidekicks.delete",
+  "ai.alpha.sidekicks.draft",
   "ai.alpha.sidekicks.getOrCreateMemoryCanvas",
   "ai.alpha.sidekicks.rewritePrompt",
   "ai.alpha.sidekicks.testPrompt",
@@ -798,7 +799,10 @@
   "ai.alpha.surfaces.rename",
   "ai.alpha.surfaces.reportDraftRender",
   "ai.alpha.surfaces.restoreVersion",
-  "ai.alpha.surfaces.setSourcesShared"
+  "ai.alpha.surfaces.setSourcesShared",
+  "ai.alpha.surfaces.storageGet",
+  "ai.alpha.surfaces.storageList",
+  "ai.alpha.surfaces.storageSet"
  ],
  "ai.alpha.translate": [
   "ai.alpha.translate.fileSummary",
@@ -3631,6 +3635,13 @@
  ],
  "workflows.channels": [
   "workflows.channels.add"
+ ],
+ "workflows.errorVisibility.alertSettings": [
+  "workflows.errorVisibility.alertSettings.get",
+  "workflows.errorVisibility.alertSettings.set"
+ ],
+ "workflows.errorVisibility.digest": [
+  "workflows.errorVisibility.digest.send"
  ],
  "workflows.featured": [
   "workflows.featured.add",

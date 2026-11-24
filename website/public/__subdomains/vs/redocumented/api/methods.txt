@@ -105,8 +105,8 @@ admin.apps.restricted.list	documented	live-verified	params	-	-	-	List restricted
 admin.apps.search	undocumented	existence-only	params	-	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 admin.apps.setAiPrefs	undocumented	existence-only	-	-	not-in-client	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 admin.apps.teamAccess.getConfig	undocumented	existence-only	-	-	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
-admin.apps.teamAccess.grant	undocumented	existence-only	-	-	-	-	(inferred from name only; see methods/datamine-2026-09.md)
-admin.apps.teamAccess.revoke	undocumented	existence-only	-	-	-	write	(inferred from name only; see methods/datamine-2026-09.md)
+admin.apps.teamAccess.grant	undocumented	existence-only	-	observed	-	-	(inferred from name only; see methods/datamine-2026-09.md)
+admin.apps.teamAccess.revoke	undocumented	existence-only	-	observed	-	write	(inferred from name only; see methods/datamine-2026-09.md)
 admin.apps.teamAccess.setConfig	undocumented	existence-only	-	-	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 admin.apps.uninstall	documented	live-verified	params	-	-	-	Uninstall an app from one or many workspaces, or an entire enterprise organization.
 admin.apps.updates.list	undocumented	ambiguous (unknown_method on both token types, 2026-11-03, see methods/read-sweep-2026-11-03.md)	-	-	not-in-client	-	(inferred from name only; see methods/datamine-2026-09.md)
@@ -146,7 +146,7 @@ admin.conversations.ekm.listOriginalConnectedChannelInfo	documented	docs-only	pa
 admin.conversations.export	undocumented	existence-only	-	observed	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 admin.conversations.getConversationPrefs	documented	docs-only	params	-	-	-	Get conversation preferences for a public or private channel.
 admin.conversations.getCustomRetention	documented	docs-only	params	-	-	-	This API endpoint can be used by any admin to get a conversation's retention policy.
-admin.conversations.getFileCountByType	undocumented	existence-only (sample-checked)	-	-	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
+admin.conversations.getFileCountByType	undocumented	existence-only (sample-checked)	-	observed	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 admin.conversations.getTeams	documented	docs-only	params	-	-	-	Get all the workspaces a given public or private channel is connected to within this Enterprise org.
 admin.conversations.invite	documented	docs-only	params	-	-	write	Invite a user to a public or private channel.
 admin.conversations.kick	undocumented	existence-only	-	observed	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
@@ -401,6 +401,7 @@ ai.alpha.replies.get	undocumented	ambiguous (unknown_method on both token types,
 ai.alpha.search.getNoResultsPrompts	undocumented	existence-only	-	observed	-	-	(inferred from name only; see methods/datamine-2026-09.md)
 ai.alpha.sidekicks.create	undocumented	existence-only	-	observed	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 ai.alpha.sidekicks.delete	undocumented	existence-only	-	observed	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
+ai.alpha.sidekicks.draft	undocumented	datamine-only (not oracle-tested)	-	observed	-	-	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.sidekicks.getOrCreateMemoryCanvas	undocumented	existence-only	-	observed	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 ai.alpha.sidekicks.rewritePrompt	undocumented	existence-only	-	observed	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 ai.alpha.sidekicks.testPrompt	undocumented	existence-only	-	observed	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
@@ -501,6 +502,9 @@ ai.alpha.surfaces.rename	undocumented	datamine-only (not oracle-tested)	-	-	-	wr
 ai.alpha.surfaces.reportDraftRender	undocumented	datamine-only (not oracle-tested)	-	observed	-	-	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.surfaces.restoreVersion	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.surfaces.setSourcesShared	undocumented	datamine-only (not oracle-tested)	-	observed	-	write	(inferred from name only; webpack string, not oracle-tested)
+ai.alpha.surfaces.storageGet	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
+ai.alpha.surfaces.storageList	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
+ai.alpha.surfaces.storageSet	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.translate.fileSummary	undocumented	existence-only	-	-	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 ai.alpha.translate.locales	undocumented	existence-only	params	-	-	-	(inferred from name only; see methods/datamine-2026-09.md)
 ai.alpha.translate.message	undocumented	existence-only	-	-	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
@@ -2312,6 +2316,9 @@ workflows.channelOptIn.list	undocumented	existence-only	-	observed	-	-	(from int
 workflows.channelOptIn.set	undocumented	existence-only	-	observed	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 workflows.channels.add	undocumented	datamine-only (not oracle-tested)	-	observed	-	write	(inferred from name only; webpack string, not oracle-tested)
 workflows.createFromTemplate	undocumented	existence-only	-	-	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
+workflows.errorVisibility.alertSettings.get	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
+workflows.errorVisibility.alertSettings.set	undocumented	datamine-only (not oracle-tested)	-	-	-	write	(inferred from name only; webpack string, not oracle-tested)
+workflows.errorVisibility.digest.send	undocumented	datamine-only (not oracle-tested)	-	-	-	write	(inferred from name only; webpack string, not oracle-tested)
 workflows.featured.add	documented	docs-only	params	-	-	write	Add featured workflows to a channel.
 workflows.featured.list	documented	docs-only	params	-	-	-	List the featured workflows for specified channels.
 workflows.featured.remove	documented	docs-only	params	-	-	write	Remove featured workflows from a channel.
