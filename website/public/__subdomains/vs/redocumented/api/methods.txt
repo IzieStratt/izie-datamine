@@ -342,6 +342,9 @@ admin.workflows.triggers.types.permissionsWithStepRestrictions.set	undocumented	
 admin.workflows.unpublish	documented	docs-only	params	-	-	-	Unpublish workflows within the team or enterprise
 agents.a2a.add	undocumented	datamine-only (not oracle-tested)	-	-	not-in-client	write	(inferred from name only; webpack string, not oracle-tested)
 agents.a2a.preview	undocumented	datamine-only (not oracle-tested)	-	-	not-in-client	-	(inferred from name only; webpack string, not oracle-tested)
+agents.bindings.add	undocumented	datamine-only (not oracle-tested)	-	-	-	write	(inferred from name only; webpack string, not oracle-tested)
+agents.bindings.draft	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
+agents.bindings.test	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
 agents.conversations.archive	documented	docs-only	params	-	-	write	
 agents.conversations.create	documented	docs-only	params	-	-	write	
 agents.conversations.getCanvas	documented	docs-only	params	-	-	-	
@@ -418,9 +421,9 @@ ai.alpha.singer.remoteResponse	undocumented	datamine-only (not oracle-tested)	-	
 ai.alpha.singer.window	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.singer.windowConversation	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.singer.windowThread	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
-ai.alpha.slackbot.automationGroups.delete	undocumented	existence-only (sample-checked)	-	observed	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
-ai.alpha.slackbot.automationGroups.list	undocumented	existence-only	-	observed	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
-ai.alpha.slackbot.automationGroups.setActive	undocumented	existence-only	-	observed	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
+ai.alpha.slackbot.automationGroups.delete	undocumented	existence-only (sample-checked)	-	observed	not-in-client	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
+ai.alpha.slackbot.automationGroups.list	undocumented	existence-only	-	observed	not-in-client	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
+ai.alpha.slackbot.automationGroups.setActive	undocumented	existence-only	-	observed	not-in-client	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 ai.alpha.slackbot.channelMcpServers.list	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.slackbot.channelMemory.delete	undocumented	datamine-only (not oracle-tested)	-	-	-	write	(inferred from name only; webpack string, not oracle-tested)
 ai.alpha.slackbot.channelMemory.list	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
@@ -1399,6 +1402,7 @@ helpdesk.categories	undocumented	existence-only	params	-	-	-	(inferred from name
 helpdesk.get	undocumented	existence-only	params	-	-	-	(inferred from name only; see methods/datamine-2026-09.md)
 helpdesk.getArticle	undocumented	existence-only	params	-	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 helpdesk.getSectionsAndArticlesByCategory	undocumented	existence-only	-	observed	-	-	(inferred from name only; see methods/datamine-2026-09.md)
+huddles.addSlackbot	undocumented	datamine-only (not oracle-tested)	-	-	-	write	(inferred from name only; webpack string, not oracle-tested)
 huddles.agents.invite	undocumented	datamine-only (not oracle-tested)	-	observed	-	write	(inferred from name only; webpack string, not oracle-tested)
 huddles.agents.listAvailable	undocumented	datamine-only (not oracle-tested)	-	observed	-	-	(inferred from name only; webpack string, not oracle-tested)
 huddles.agents.remove	undocumented	datamine-only (not oracle-tested)	-	observed	-	write	(inferred from name only; webpack string, not oracle-tested)
@@ -1778,7 +1782,7 @@ sfdc.admin.currency.get	undocumented	datamine-only (not oracle-tested)	-	observe
 sfdc.admin.currency.set	undocumented	datamine-only (not oracle-tested)	-	observed	-	write	(inferred from name only; webpack string, not oracle-tested)
 sfdc.admin.emailCapture.get	undocumented	datamine-only (not oracle-tested)	-	observed	-	-	(inferred from name only; webpack string, not oracle-tested)
 sfdc.admin.emailCapture.set	undocumented	datamine-only (not oracle-tested)	-	observed	-	write	(inferred from name only; webpack string, not oracle-tested)
-sfdc.admin.slackbotRules.get	undocumented	datamine-only (not oracle-tested)	-	-	-	-	(inferred from name only; webpack string, not oracle-tested)
+sfdc.admin.slackbotRules.get	undocumented	datamine-only (not oracle-tested)	-	observed	-	-	(inferred from name only; webpack string, not oracle-tested)
 sfdc.admin.slackbotRules.set	undocumented	datamine-only (not oracle-tested)	-	observed	-	write	(inferred from name only; webpack string, not oracle-tested)
 sfdc.agentforce.add	undocumented	existence-only	-	observed	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
 sfdc.agentforce.admin.deleteMcpServers	undocumented	existence-only	-	-	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)

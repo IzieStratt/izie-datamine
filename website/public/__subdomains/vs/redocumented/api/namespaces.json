@@ -555,6 +555,11 @@
   "agents.a2a.add",
   "agents.a2a.preview"
  ],
+ "agents.bindings": [
+  "agents.bindings.add",
+  "agents.bindings.draft",
+  "agents.bindings.test"
+ ],
  "agents.conversations": [
   "agents.conversations.archive",
   "agents.conversations.create",
@@ -2193,6 +2198,7 @@
   "helpdesk.getSectionsAndArticlesByCategory"
  ],
  "huddles": [
+  "huddles.addSlackbot",
   "huddles.cancelKnock",
   "huddles.get",
   "huddles.getIndirectHuddle",
