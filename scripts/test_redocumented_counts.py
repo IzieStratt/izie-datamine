@@ -46,7 +46,7 @@ class CountDefinitions(unittest.TestCase):
     def test_not_in_client_and_observed_params_and_own_miner(self):
         ms = [method('undocumented', 'existence-only', not_in_client=True),
               method('undocumented', 'existence-only', params_observed={'a': {'sites': 1, 'type': 'unknown'}},
-                     source='IzieStratt/slack-datamine-plus (own miner)'),
+                     source='IzieStratt/sdmp (own miner)'),
               method('undocumented', 'existence-only', params_observed={})]
         c = rc.compute_counts(ms)
         self.assertEqual((c['not_in_client'], c['params_observed'], c['own_miner_sourced']), (1, 1, 1))

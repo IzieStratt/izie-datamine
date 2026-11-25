@@ -340,9 +340,9 @@ number of times (never more than 4-5 param/token combinations per method).
   the limits of the undocumented section/layout evidence. No new writes or
   catalog verification upgrades were made for this revision.
 
-### Sixth/seventh pass (2026-10-19/20): our own miner, `slack-datamine-plus`
+### Sixth/seventh pass (2026-10-19/20): our own miner, `sdmp`
 
-3kh0's miner stopped finding most of Slack's code in late July (see `methods/datamine-2026-10.md`), so this project built its own: [`IzieStratt/slack-datamine-plus`](https://github.com/IzieStratt/slack-datamine-plus) (AGPL-3.0, GitHub Actions, about every 40 minutes). It reads the web client's webpack manifest, downloads the ~1,800 chunks, and tracks every method name with first/last seen. It is credited in the `source` of every entry it has seen. It also collects **observed parameter names** from the client's call sites (`params_observed`, not a schema). A method missing from 3 consecutive builds is marked `not_in_client`, which only means the client no longer references it. A bot opens a pull request here whenever something changes.
+3kh0's miner stopped finding most of Slack's code in late July (see `methods/datamine-2026-10.md`), so this project built its own: [`IzieStratt/sdmp`](https://github.com/IzieStratt/sdmp) (AGPL-3.0, GitHub Actions, about every 40 minutes). It reads the web client's webpack manifest, downloads the ~1,800 chunks, and tracks every method name with first/last seen. It is credited in the `source` of every entry it has seen. It also collects **observed parameter names** from the client's call sites (`params_observed`, not a schema). A method missing from 3 consecutive builds is marked `not_in_client`, which only means the client no longer references it. A bot opens a pull request here whenever something changes.
 
 ## Honest coverage statement
 

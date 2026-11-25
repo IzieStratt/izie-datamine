@@ -1,6 +1,6 @@
 # Code channels
 
-Slack's client has a **code channel** conversation type: "a multiplayer coding environment designed for everyone, not just developers", with pull requests, diffs and review built in. Everything here comes from Slack's client code (the `slack-datamine-plus` miner, and `3kh0/slack-datamine` history for the early builds). **Nothing was live-called.** Method names and the argument names below are real; descriptions are inferred from names and client strings.
+Slack's client has a **code channel** conversation type: "a multiplayer coding environment designed for everyone, not just developers", with pull requests, diffs and review built in. Everything here comes from Slack's client code (the `sdmp` miner, and `3kh0/slack-datamine` history for the early builds). **Nothing was live-called.** Method names and the argument names below are real; descriptions are inferred from names and client strings.
 
 ## Methods
 

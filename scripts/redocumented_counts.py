@@ -28,7 +28,7 @@ COUNT_DEFS = {
                                   "'docs + live-tested' or 'docs-only (live-tested ..., error path only)'.",
     'params_known': "Entries with params_known: true (a real, sourced parameter schema).",
     'response_known': "Entries with response_known: true (a real, sourced response shape or example).",
-    'own_miner_sourced': "Entries whose `source` credits IzieStratt/slack-datamine-plus.",
+    'own_miner_sourced': "Entries whose `source` credits IzieStratt/sdmp.",
 }
 
 
@@ -42,7 +42,7 @@ def compute_counts(methods):
         'live_verified_undocumented': sum(m['status'] == 'undocumented' and m['verified'] == 'live-verified' for m in methods),
         'params_known': sum(bool(m['params_known']) for m in methods),
         'response_known': sum(bool(m['response_known']) for m in methods),
-        'own_miner_sourced': sum('slack-datamine-plus' in (m.get('source') or '') for m in methods),
+        'own_miner_sourced': sum('IzieStratt/sdmp' in (m.get('source') or '') for m in methods),
     }
 
 

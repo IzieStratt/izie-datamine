@@ -9,7 +9,7 @@ behind experiments. Several of the hidden ones are accepted by
 
 Sources, cross-checked 2026-11-18:
 
-- **Client names**: `block-kit-types.txt` from [slack-datamine-plus](https://slackdatamineplus.izie.top),
+- **Client names**: `block-kit-types.txt` from [sdmp](https://slackdatamineplus.izie.top),
   the block/element/rich-text type names in the current web client build.
 - **Decoded from the client**: the block registry in web client build `2bdd7e246c53`
   (fetched 2026-11-18). Each block is registered as `{type, component, processProps}`, and
@@ -230,7 +230,7 @@ takes `label`, `is_label_visible`; `data_table` takes `page_size`, `row_header_c
 `should_stack_accessory`. Some props (`is_in_app_view`, `sender_member_id`, `container_id`, …) are
 set by the client, not by the block.
 
-slack-datamine-plus regenerates this from every new build as `block-registry.txt`. The full output
+sdmp regenerates this from every new build as `block-registry.txt`. The full output
 for build `2bdd7e246c53` (186 lines: every registered renderer, its fields, and each prototype
 candidate with its gate) is in [`data/block-registry-2bdd7e246c53.txt`](data/block-registry-2bdd7e246c53.txt).
 
@@ -293,6 +293,6 @@ the rest are client-only or set by Slack itself.
 ## Elements and rich-text types
 
 The client's element and rich-text element names (including internal ones like `_variable`,
-`work_object_mention`, `citation`, `skill`) are in slack-datamine-plus's `block-kit-types.txt`.
+`work_object_mention`, `citation`, `skill`) are in sdmp's `block-kit-types.txt`.
 slack.ts `src/types/blocks/elements.ts` has the typed element / action payload / `state.values`
 shapes for every interactive element.

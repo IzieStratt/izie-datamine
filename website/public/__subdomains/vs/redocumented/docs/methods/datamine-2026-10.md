@@ -1,8 +1,8 @@
-# Our own miner (`slack-datamine-plus`), "not in the current client", and observed params -- 2026-10-20
+# Our own miner (`sdmp`), "not in the current client", and observed params -- 2026-10-20
 
 ## Sources
 
-- **`IzieStratt/slack-datamine-plus`** (this project's own miner, AGPL-3.0, runs from GitHub Actions every ~40 minutes): downloads the ~1,800 public JavaScript chunks of Slack's web client for the logged-in throwaway account's build, extracts API method names and the argument names used at call sites. It is listed in each entry's `source` as `IzieStratt/slack-datamine-plus (own miner)`; 1599 entries carry it.
+- **`IzieStratt/sdmp`** (this project's own miner, AGPL-3.0, runs from GitHub Actions every ~40 minutes): downloads the ~1,800 public JavaScript chunks of Slack's web client for the logged-in throwaway account's build, extracts API method names and the argument names used at call sites. It is listed in each entry's `source` as `IzieStratt/sdmp (own miner)`; 1599 entries carry it.
 - **`3kh0/slack-datamine`** (full git history, 2026-06-02 -> 2026-10-19): the earlier source for most undocumented names. Its recent builds only list ~250 methods because its chunk discovery broke around 2026-07-24 (see below); that is why this project built its own miner.
 
 ## "Not in the current client" (was called "removed")
