@@ -2061,6 +2061,7 @@
   "files.docs.unsetEditor"
  ],
  "files.external": [
+  "files.external.checkForUpdates",
   "files.external.checkPermission",
   "files.external.getOrCreate",
   "files.external.getProviders",

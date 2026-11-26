@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "counts": {
-  "total": 2364,
+  "total": 2365,
   "documented": 345,
-  "undocumented": 2019,
+  "undocumented": 2020,
   "not_in_client": 419,
-  "params_observed": 667,
+  "params_observed": 681,
   "live_verified_undocumented": 113,
   "params_known": 916,
   "response_known": 712,
-  "own_miner_sourced": 1603
+  "own_miner_sourced": 1604
  },
  "lookup": "https://vs.izie.top/redocumented/api/methods/{name}.json (or .md) for one method's full entry",
  "safety_note_for_agents": "This catalog documents Slack's UNDOCUMENTED/internal API surface for a specific workspace (Hack Club, Enterprise Grid). Calling an undocumented method with params_known=false means you would be guessing params against a real backend with unknown side effects -- do not do this against a real account/token without a human in the loop, and never call anything shaped like a write (*.delete, *.set, *.remove, *.create, *.update, and similar) without explicit human confirmation and a clear understanding of the blast radius, even when params_known=true. 'existence-only' verified does NOT mean 'safe to call' -- it only means the method name is real.",
@@ -276,7 +276,7 @@
    "write_shaped": true,
    "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "admin.accountType.permissions.orgEnforcements.remove",
@@ -287,7 +287,7 @@
    "write_shaped": true,
    "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "admin.accountType.permissions.remove",
@@ -331,7 +331,7 @@
    "write_shaped": true,
    "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "admin.advisor.recommendations.list",
@@ -4984,7 +4984,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; webpack string, not oracle-tested)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "ai.alpha.slackbot.skills.getAggregateMetrics",
@@ -5160,7 +5160,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; webpack string, not oracle-tested)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "ai.alpha.slackbot.skills.revokeShareLinks",
@@ -6821,7 +6821,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; webpack string, not oracle-tested)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "apps.profile.get",
@@ -7206,7 +7206,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; webpack string, not oracle-tested)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "auth.passkeys.register.begin",
@@ -12156,7 +12156,7 @@
    "write_shaped": false,
    "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "enterprise.apps.search",
@@ -14115,6 +14115,17 @@
    "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
    "not_in_client": false,
    "params_observed": false
+  },
+  {
+   "name": "files.external.checkForUpdates",
+   "status": "undocumented",
+   "verified": "datamine-only (not oracle-tested)",
+   "params_known": false,
+   "response_known": false,
+   "write_shaped": false,
+   "purpose": "(inferred from name only; webpack string, not oracle-tested)",
+   "not_in_client": false,
+   "params_observed": true
   },
   {
    "name": "files.external.checkPermission",
@@ -16193,7 +16204,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; see methods/datamine-2026-09.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "lists.records.infoBatch",
@@ -16204,7 +16215,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; see methods/datamine-2026-09.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "lists.records.list",
@@ -17843,7 +17854,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; see methods/datamine-2026-09.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "quip.getControllerInitData",
@@ -19922,7 +19933,7 @@
    "write_shaped": true,
    "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "sfdc.captchaKeys.create",
@@ -21066,7 +21077,7 @@
    "write_shaped": false,
    "purpose": "(inferred from name only; see methods/datamine-2026-09.md)",
    "not_in_client": false,
-   "params_observed": false
+   "params_observed": true
   },
   {
    "name": "sfdc.shareSalesTracker",
