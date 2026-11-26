@@ -6,7 +6,7 @@
   "undocumented": 2020,
   "not_in_client": 419,
   "params_observed": 681,
-  "live_verified_undocumented": 113,
+  "live_verified_undocumented": 114,
   "params_known": 916,
   "response_known": 712,
   "own_miner_sourced": 1604
@@ -27321,9 +27321,9 @@
   {
    "name": "chat.shareMessage",
    "status": "undocumented",
-   "tokens": "unknown",
-   "verified": "existence-only",
-   "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
+   "tokens": "xoxc + xoxd session cookie (enterprise host, origin: https://app.slack.com) works; xoxp returns not_allowed_token_type; xoxb not tested",
+   "verified": "live-verified",
+   "purpose": "The web client's native 'forward message' call. channel + timestamp identify the original message; share_channel is the destination. Live 2026-11-26 it posted a forward (a write), so it is not read-only.",
    "source": "internal Canvas (private, hackclub workspace; bonus 4th source, user-linked mid-task) + IzieStratt/sdmp (own miner)",
    "params": {
     "timestamp": {
@@ -27359,7 +27359,7 @@
     "ts": "string"
    },
    "response_known": true,
-   "response_source": "ImShyMike/slack-undoc-client (generated TS types, cross-referenced not independently verified)",
+   "response_source": "ImShyMike/slack-undoc-client (generated TS types, cross-referenced not independently verified); the ok/channel/ts envelope was observed in one live call 2026-11-26 (ts is the new forwarded message in the destination)",
    "datamine": {
     "first_build": "125207",
     "first_seen": "2026-06-02"

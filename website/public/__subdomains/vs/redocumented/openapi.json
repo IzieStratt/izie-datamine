@@ -23943,12 +23943,12 @@
   "/chat.shareMessage": {
    "post": {
     "operationId": "chat.shareMessage",
-    "summary": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
-    "description": "status: undocumented; verified: existence-only; params source: ImShyMike/slack-undoc-client (generated TS types, cross-referenced not independently verified). Details: https://vs.izie.top/redocumented/api/methods/chat.shareMessage.md",
+    "summary": "The web client's native 'forward message' call. channel + timestamp identify the original message; share_channel is the destination. Live 2026-11-26 it posted a forward (a write), so it is not read-on",
+    "description": "status: undocumented; verified: live-verified; params source: ImShyMike/slack-undoc-client (generated TS types, cross-referenced not independently verified). Details: https://vs.izie.top/redocumented/api/methods/chat.shareMessage.md",
     "tags": [
      "undocumented"
     ],
-    "x-verified": "existence-only",
+    "x-verified": "live-verified",
     "x-write-shaped": true,
     "requestBody": {
      "content": {

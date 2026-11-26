@@ -771,7 +771,7 @@ chat.requestBubbleHoverBackground	undocumented	datamine-only (not oracle-tested)
 chat.ru	undocumented	datamine-only (not oracle-tested)	-	-	not-in-client	-	(inferred from name only; webpack string, not oracle-tested)
 chat.scheduleMessage	documented	docs-only	params	-	-	write	Schedules a message to be sent to a channel.
 chat.scheduledMessages.list	documented	docs-only	params	-	-	-	Returns a list of scheduled messages.
-chat.shareMessage	undocumented	existence-only	params	-	-	write	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)
+chat.shareMessage	undocumented	live-verified	params	-	-	write	The web client's native 'forward message' call. channel + timestamp identify the original message; share_channel is the destination. Live 2026-11-26 it posted a forward (a write), so it is not read-only.
 chat.slashCommandBackground	undocumented	datamine-only (not oracle-tested)	-	-	not-in-client	-	(inferred from name only; webpack string, not oracle-tested)
 chat.slashCommandForeground	undocumented	datamine-only (not oracle-tested)	-	-	not-in-client	-	(inferred from name only; webpack string, not oracle-tested)
 chat.slugifyUrl	undocumented	existence-only	-	-	-	-	(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)

@@ -1,7 +1,7 @@
 # `chat.*` — messages
 
 Mix of officially documented methods (improved here with observed quirks) and
-one undocumented method (`chat.command`).
+two undocumented methods (`chat.command`, `chat.shareMessage`).
 
 ## `chat.scheduleMessage` (documented)
 
@@ -55,6 +55,26 @@ one undocumented method (`chat.command`).
   the command). Response: `{"ok": true, "response": "..."}` for commands that
   answer inline (e.g. `/who`); most slash commands instead just post their
   output into the channel and `response` is absent.
+
+## `chat.shareMessage`
+
+- **Status:** UNDOCUMENTED. This is the web client's native "forward message" call.
+- **Params:** `channel` + `timestamp` identify the original message. `share_channel`
+  is the destination channel. Optional: `text` (comment added with the forward),
+  `blocks`, `skip_dlp_user_warning`.
+- **Response:** `{"ok": true, "channel": ..., "ts": ...}`, where `ts` is the new
+  forwarded message in the destination.
+- **Live-verified 2026-11-26:**
+  - A user token (`xoxp`) returns `not_allowed_token_type`.
+  - An enterprise session (`xoxc` sent as form field `token`, plus `Cookie: d=<xoxd>`
+    and an `origin: https://app.slack.com` header) against
+    `https://hackclub.enterprise.slack.com/api/chat.shareMessage` returned `ok: true`.
+    It posted a native forward as the session's user. The test forwarded a message
+    back into the same channel.
+- **Side effect:** the successful call posts a message, so it is a write. Only call it
+  with a message and destination you mean to forward.
+- **Not tested:** a bot token (`xoxb`), and forwarding into a channel the session's
+  user is not a member of.
 
 ## `chat.postMessage` with Block Kit: review-card gotchas (documented method)
 

@@ -6,7 +6,7 @@
   "undocumented": 2020,
   "not_in_client": 419,
   "params_observed": 681,
-  "live_verified_undocumented": 113,
+  "live_verified_undocumented": 114,
   "params_known": 916,
   "response_known": 712,
   "own_miner_sourced": 1604
@@ -8498,11 +8498,11 @@
   {
    "name": "chat.shareMessage",
    "status": "undocumented",
-   "verified": "existence-only",
+   "verified": "live-verified",
    "params_known": true,
    "response_known": true,
    "write_shaped": true,
-   "purpose": "(from internal-canvas cross-reference; see methods/internal-canvas-2026.md)",
+   "purpose": "The web client's native 'forward message' call. channel + timestamp identify the original message; share_channel is the destination. Live 2026-11-26 it posted a forward (a write), so it is not read-only.",
    "not_in_client": false,
    "params_observed": false
   },

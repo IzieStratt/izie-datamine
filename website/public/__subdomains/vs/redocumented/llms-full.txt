@@ -155,7 +155,7 @@ not merely flagged; the 31 `slack-undoc-client` additions carry real typed
 params but were not independently oracle- or live-tested this pass. See the
 coverage caveats below before treating "2,020 undocumented" as "2,020
 confirmed hidden APIs": existence-tested is not the same as behavior-tested —
-only 113 undocumented methods are `live-verified` with real credentials (real
+only 114 undocumented methods are `live-verified` with real credentials (real
 params/response shapes independently confirmed); the rest are confirmed to
 *dispatch* (or, for the newest 31, typed by a third party) and nothing more.
 
@@ -1071,7 +1071,7 @@ official docs (marked **docs**) relevant to the methods covered here.
 |---|---|---|
 | `ok:false` + `error:"unknown_method"` | The method name doesn't exist at all — returned **before** auth is checked, even with a garbage token. This is the existence-oracle signal. **seen** | Any nonexistent method name, e.g. `conversations.definitelyNotAMethod12345`, `bots.list`, `channels.delete`, `apps.user.connection`, `calendar.list`. |
 | `invalid_auth` | Token rejected: garbage/expired/revoked token, or a session token missing its paired `d=` cookie. Also the generic "method exists but you're not authenticated" response used by the existence oracle. **seen** | Garbage token against any real method name. |
-| `not_allowed_token_type` | Method exists, token authenticated fine, but this **class** of token can never call it (independent of scope/permissions). **seen** | `chat.scheduleMessage`, `chat.scheduledMessages.list` with either xoxc (team or enterprise), either host. Also `files.sharedPublicURL` with a bot `xoxb` (2026-10-23, see `methods/files.md`). |
+| `not_allowed_token_type` | Method exists, token authenticated fine, but this **class** of token can never call it (independent of scope/permissions). **seen** | `chat.scheduleMessage`, `chat.scheduledMessages.list` with either xoxc (team or enterprise), either host. Also `files.sharedPublicURL` with a bot `xoxb` (2026-10-23, see `methods/files.md`). Also `chat.shareMessage` with a user `xoxp` token (2026-11-26, live). |
 | `team_is_restricted` | Org/Grid-wide method called with a **team**-scoped session token; needs the enterprise-level xoxc instead. **seen** | `drafts.list`/`delete`/`update`, `client.userBoot`, `client.counts`, `client.extras`, `client.shouldReload`, `search.modules.messages`, `saved.list`, `commands.list`, `users.priority.list`, `users.channelSections.list` — all with team xoxc. |
 | `enterprise_is_restricted` | Reverse of the above: team-scoped method called with the **enterprise**-level session token. **seen** | `client.boot` with enterprise xoxc. |
 | `invalid_channel` | Destination isn't a valid channel/DM id for this call. **seen** | `drafts.create` with a user id (`U...`) instead of a channel/DM id (`D...`) in `destinations`. |
@@ -1990,7 +1990,7 @@ Verified legend (undocumented only): `live-verified` (called for real, read-only
 | `chat.ru` | undocumented | datamine-only (not oracle-tested) | unknown | unknown | 3kh0/slack-datamine, build history through 134791 (all committed builds) | (inferred from name only; webpack string, not oracle-tested) _not in current client_ (last seen build 126751, 2026-06-29) |
 | `chat.scheduleMessage` | documented | docs | 2 required (channel, post_at); 12 optional | known | docs.slack.dev / slack-ruby/slack-api-ref mirror | Schedules a message to be sent to a channel. |
 | `chat.scheduledMessages.list` | documented | docs | 6 optional | known | docs.slack.dev / slack-ruby/slack-api-ref mirror | Returns a list of scheduled messages. |
-| `chat.shareMessage` | undocumented | existence-only | 6 optional | known | internal Canvas (private, hackclub workspace; bonus 4th source, user-linked mid-task) + IzieStratt/sdmp (own miner) | (from internal-canvas cross-reference; see methods/internal-canvas-2026.md) |
+| `chat.shareMessage` | undocumented | live-verified | 6 optional | known | internal Canvas (private, hackclub workspace; bonus 4th source, user-linked mid-task) + IzieStratt/sdmp (own miner) | Native web-client "forward message" (live 2026-11-26: enterprise xoxc+xoxd session, ok:true, posted a forward). See methods/chat.md. |
 | `chat.slashCommandBackground` | undocumented | datamine-only (not oracle-tested) | unknown | unknown | 3kh0/slack-datamine, build history through 134791 (all committed builds) | (inferred from name only; webpack string, not oracle-tested) _not in current client_ (last seen build 128164, 2026-07-24) |
 | `chat.slashCommandForeground` | undocumented | datamine-only (not oracle-tested) | unknown | unknown | 3kh0/slack-datamine, build history through 134791 (all committed builds) | (inferred from name only; webpack string, not oracle-tested) _not in current client_ (last seen build 128164, 2026-07-24) |
 | `chat.slugifyUrl` | undocumented | existence-only | unknown | unknown | internal Canvas (private, hackclub workspace; bonus 4th source, user-linked mid-task) + IzieStratt/sdmp (own miner) | (from internal-canvas cross-reference; see methods/internal-canvas-2026.md) |
@@ -3698,7 +3698,7 @@ state={"values":{"<block_id>":{"<action_id>":{"type":"plain_text_input","value":
 # `chat.*` — messages
 
 Mix of officially documented methods (improved here with observed quirks) and
-one undocumented method (`chat.command`).
+two undocumented methods (`chat.command`, `chat.shareMessage`).
 
 ## `chat.scheduleMessage` (documented)
 
@@ -3752,6 +3752,26 @@ one undocumented method (`chat.command`).
   the command). Response: `{"ok": true, "response": "..."}` for commands that
   answer inline (e.g. `/who`); most slash commands instead just post their
   output into the channel and `response` is absent.
+
+## `chat.shareMessage`
+
+- **Status:** UNDOCUMENTED. This is the web client's native "forward message" call.
+- **Params:** `channel` + `timestamp` identify the original message. `share_channel`
+  is the destination channel. Optional: `text` (comment added with the forward),
+  `blocks`, `skip_dlp_user_warning`.
+- **Response:** `{"ok": true, "channel": ..., "ts": ...}`, where `ts` is the new
+  forwarded message in the destination.
+- **Live-verified 2026-11-26:**
+  - A user token (`xoxp`) returns `not_allowed_token_type`.
+  - An enterprise session (`xoxc` sent as form field `token`, plus `Cookie: d=<xoxd>`
+    and an `origin: https://app.slack.com` header) against
+    `https://hackclub.enterprise.slack.com/api/chat.shareMessage` returned `ok: true`.
+    It posted a native forward as the session's user. The test forwarded a message
+    back into the same channel.
+- **Side effect:** the successful call posts a message, so it is a write. Only call it
+  with a message and destination you mean to forward.
+- **Not tested:** a bot token (`xoxb`), and forwarding into a channel the session's
+  user is not a member of.
 
 ## `chat.postMessage` with Block Kit: review-card gotchas (documented method)
 
